@@ -1,0 +1,653 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* HEADER */
+header{
+    width: 100%;
+    height: 25vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/698/351/non_2x/dark-background-with-glowing-golden-dots-and-lines-vector.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+header h1{
+    margin: 0 0 70px 0;
+    padding: 0;
+    font-family: 'Diplomata', cursive;
+    color: azure;
+    font-size: 45px;
+}
+
+header .page-nav {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 5px;
+    font-weight: normal;
+    /* border-bottom: 70px solid black; */
+    margin-bottom: -60px;
+}
+
+header .page-nav fieldset{
+    width: 100%;
+    height: 7vh;
+    margin: 0;
+    border: none;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .page-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+header .page-nav ul li {
+    padding: 25px;
+}
+
+header .page-nav ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+header .page-nav ul li a:hover{
+    color: darkgoldenrod;
+}
+
+/* MAIN */
+
+.container-one{
+    width: 100%;
+    height: 85vh;   
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/746/726/non_2x/two-old-dumbbells-on-white-wooden-background-photo.jpg');
+    background-position: center -55px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 65px solid black;
+}
+
+.container-one .row1-2{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.container-one .row1-2 h2{
+    margin: 10px;
+    font-size: 10rem;
+    filter: drop-shadow(2px 2px aliceblue);
+}
+
+.container-one .row1-2 h3{
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    filter: drop-shadow(2px 2px black);
+}
+
+.container-one .row1-2 button{
+    background-color: #524020;
+    color: aliceblue;
+    padding: 15px;
+    width: 220px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-one .row1-2 button:hover{
+   background-color: #af8439;
+}
+.container-one .row1-2 button .icon svg{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-left: 13px;
+    filter: invert(100%);
+}
+/* ************************************************* */
+
+.container-two{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+}
+
+.container-two .row2-2{   
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.container-two .row2-2 div{
+    width: 30%;
+    height: 40vh;
+    margin: -25px 10px 10px 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.container-two .row2-2 .image:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://ae01.alicdn.com/kf/H8a6de588c15f4de49de38d983283cffdH/Soporte-para-Mancuernas-de-3-niveles-para-torre-de-peso-de-mano-mult-metro-para-organizaci.jpg_960x960.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-two .row2-2 .image:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vegeta-1557843264.jpg?crop=1xw:1xh;center,top&resize=320:*');
+    background-position: center;
+    background-size: 100%;
+}
+
+.container-two .row2-2 .image:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.aws.alkosto.com/media/catalog/product/cache/6/image/69ace863370f34bdf190e4e164b6e123/2/7/2763_1.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.container-two .row2-2 .image h2{
+    position: relative;
+    margin-bottom: 170px;
+    float: top;
+    text-align: center;
+    font-family: 'Diplomata';
+    font-size: 20px;
+    filter: drop-shadow(3px 3px azure);
+    letter-spacing: 1px;
+}
+.container-two .row2-2 div button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: -18vh;
+    background-color: #524020;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+.container-two .row2-2 div button:hover{
+    background-color: #af8439;
+}
+
+/* ************************************************* */
+
+.container-three{
+    margin-top: 50vh;
+    padding-top: 3vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    font-family: sans-serif, cursive;
+    border-bottom: 50px solid #1b0f0a;
+}
+
+.container-three .row3{
+    width: 80%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-three .row3 h3, h2{
+    margin: 2px;
+}
+
+.container-three .row3 div{
+    width: 50%;
+    margin: 10px;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+}
+.container-three .row3 .image{
+    text-align: center;
+}
+.container-three .row3 .text{
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-three .row3 .text h2, h5, a{
+    color: black;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* vertical-align: bottom; */
+}
+.container-three .row3 .text a, h2{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.container-three .row3 .text h2{
+    color: #af8439;
+}
+
+.container-three .row3 .text a:hover, h5:hover{
+    color: #af8439;
+}
+
+.container-three .row3 .image:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background-image: url("https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/d7e08059-3898-4d6b-acab-cfbdc6f4df02.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-three .row3 .image:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/36494aeb-b2aa-4c9f-8a40-683014934403.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.container-three .row3 .image:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://mcusercontent.com/6b6d2b856f5cf7d3e82bc238f/images/ed7d5ee0-8daf-414d-97b7-9ea3fd7da49f.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* ************************************************* */
+/* Section Subscribe */
+
+.container-four{
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    padding-top: 0;
+    background-image: url("https://media.istockphoto.com/photos/cropped-of-afro-bodybuilder-and-fitness-girl-over-black-background-picture-id1199399977?k=6&m=1199399977&s=612x612&w=0&h=_4ErtXQP1N4ayv65vM1xowaNmk93kr4WytKfeiXs1SI=");
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/06/02/18/22/fitness-3448864__340.jpg"); */
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 50px solid #1b0f0a;
+}
+.container-four .row4{
+    width: 60%;
+    height: 60vh;
+    margin: -45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-four .row4 h6{
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container-four .row4 h2{
+    font-size: 3em;
+    filter: drop-shadow(3px 3px #af8439);
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.container-four .row4 p{
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin: 10px 90px 15px 90px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#email{
+    width: 450px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.container-four .row4 button{
+    width: 240px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    background-color: #524020;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.container-four .row4 button:hover{
+    background-color: #af8439;
+}
+
+/* ************************************************* */
+
+.container-five{
+    width: 100%;
+    height: 75vh;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/photos/happy-sport-woman-holding-red-heart-in-fitness-gym-club-medical-picture-id1154049184?k=6&m=1154049184&s=612x612&w=0&h=iOJnhiC3ZeqdicW1DECCmxYqdfc1a6mXKXNaxMNI9EQ=");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container-five .row5{
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.container-five .text{
+    padding-top: 200px;
+    margin-left: 50px;
+    width: 40%;
+    height: 60vh;
+    flex-direction: column;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-five .row5 h6{
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container-five .row5 h2{
+    font-size: 2em;
+    filter: drop-shadow(3px 3px #524020);
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.container-five .row5 p{
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.container-five .row5 button{
+    width: 240px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    background-color: #524020;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.container-five .row5 button:hover{
+    background-color: #af8439;
+}
+
+/* ************************************************* */
+
+.container-six{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    font-family: sans-serif, cursive;
+    
+}
+
+.container-six .row6{
+    width: 80%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-six .row6 h3, h2{
+    margin: 2px;
+    text-transform: uppercase;
+}
+
+.container-six .row6 div{
+    width: 50%;
+    margin: 0 15px 0 15px;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-six .row6 .text{
+    width: 100%;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-six .row6 .text a{
+    color: black;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container-six .row6 .text a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.container-six .row6 .text a h6{
+    margin: 4px;
+}
+
+.container-six .row6 .text a:hover{
+    color: #af8439;
+}
+
+.container-six .row6 .image:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/photos/full-length-portrait-of-young-slim-woman-doing-lunges-with-dumbbells-picture-id890874274?k=6&m=890874274&s=612x612&w=0&h=5wnrpM5z3nAI2Q4hzmSHQ6Gw1gBfDK71RpJUQvQJ5Fs=");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-six .row6 .image:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/photos/beautiful-athletic-young-brunette-woman-in-sportswear-trains-in-the-picture-id1214299921?k=6&m=1214299921&s=612x612&w=0&h=TLcOf1Cb1RovJ_dqAMGFSJ83xvmZAQpFAFPioqDU51Q=');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.container-six .row6 .image:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.istockphoto.com/photos/personal-trainer-picture-id863848724?k=6&m=863848724&s=612x612&w=0&h=mhbi02dHGCI08_EMEEehoXOBS1XX9qak57M6DHMqcQo=');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* ************************************************* */
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/698/351/non_2x/dark-background-with-glowing-golden-dots-and-lines-vector.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    color: azure;
+}
+
+footer h1{
+    margin: 0 0 90px 0;
+    padding: 0;
+    font-family: 'Diplomata', cursive;
+    color: azure;
+    font-size: 45px;
+}
+
+footer .foot-text{
+    width: 70%;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    color: azure;
+}
+
+footer .foot-text .list-text{
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+}
+footer .foot-text .list-text .one, .two{
+    width: 50%;
+    height: 30vh;
+}
+footer .foot-text .three{
+    width: 40%;
+    height: 25vh;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+footer .foot-text .three h2{
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+}
+
+footer .foot-text .three #email2{
+    width: 390px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+footer .foot-text .list-text ul{
+    list-style: none;
+}
+footer .foot-text .list-text ul li a{
+    color: azure; 
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-direction: row;
+    
+}
+
+.foot-text .three button{
+    width: 240px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    background-color: #524020;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.foot-text .three button:hover{
+    background-color: #af8439;
+}
+
+footer .foot-end {
+    width: 50%;
+    height: 15vh;
+    margin-bottom: 0;
+}
+
+footer .foot-end .payments{
+    margin-top: 90px;
+}
+
+footer .foot-end .payments img{
+    margin: 0 5px 0 5px;
+    width: 55px;
+}
